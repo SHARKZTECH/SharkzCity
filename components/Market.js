@@ -88,15 +88,15 @@ const Market= ({showi,setShowi,setShowm,texti,setId,setShowd,nfts,buyNft,myNfts,
 
                 <div className="land-list game-scroll-bar row">
                     {     items.length > 0 ?
-                          texti === "Buy Assets" && items.map(item=> <MarketItem nft={item}  buyNft={buyNft} texti={texti} /> )
+                          texti === "Buy Assets" && items.map(item=> <MarketItem key={item.id} nft={item}  buyNft={buyNft} texti={texti} /> )
                           : 'no lands available'
                     }
                     {     myItems.length > 0 ?
-                             texti === "View My Assets" && myItems.map(item=> <MarketItem nft={item}  setId={setId} setShowd={setShowd} setShowi={setShowi}/>)
+                             texti === "View My Assets" && myItems.map(item=> <MarketItem key={item.id} nft={item}  setId={setId} setShowd={setShowd} setShowi={setShowi}/>)
                              : 'no lands created'
                     }
                     {     boughtItems.length > 0 ? 
-                             texti === "View My Assets" && boughtItems.map(item=> <MarketItem nft={item}  setId={setId} setShowd={setShowd} setShowi={setShowi}/>)
+                             texti === "View My Assets" && boughtItems.map(item=> <MarketItem key={item.id} nft={item}  setId={setId} setShowd={setShowd} setShowi={setShowi}/>)
                              : 'no lands bought yet'
                     }
                 
