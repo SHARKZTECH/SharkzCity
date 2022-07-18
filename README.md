@@ -12,7 +12,7 @@
 
 #Blockchain protocol used: polygon
 
-#Instructions on how to run the code: https://sharkz-city.vercel.app/
+#Instructions on how to run the code: on the root directory "npm i" ,nmp run dev /live  https://sharkz-city.vercel.app/
 
 https://sharkz-city.vercel.app/
 
