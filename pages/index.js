@@ -175,8 +175,7 @@ export default function Home() {
          maxScale={1}
          initialScale={.5}       
          centerOnInit
-         centerZoomedOut 
-     
+         centerZoomedOut      
             
         // limitToBounds={false}
         // onWheel={()=>{console.log("whell")}}

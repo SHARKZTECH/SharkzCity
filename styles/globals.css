@@ -78,7 +78,7 @@ html {
   transform-origin: center;
   /* zoom: .49; */
   margin: 8rem auto auto auto; 
-  transform: rotate(20deg);
+  transform: rotate(90deg);
 }
 
 @media (max-width: 900px){
